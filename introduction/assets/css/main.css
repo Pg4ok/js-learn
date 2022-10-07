@@ -1,0 +1,16 @@
+body{
+    text-align: center;
+    padding: 50px 10%;
+    font: 16pt 'Concolas';
+    color: gray;
+}
+button{
+    margin: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 11pt;
+    width: 100px;
+}
+button:hover{
+    background-color: gray;
+}
