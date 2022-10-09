@@ -1,0 +1,10 @@
+body{
+    padding: 10px 10%;
+    font: 14pt 'Consolas';
+    text-align: center;
+}
+
+#main-box{
+    font-size: 75px;
+    color: blueviolet;
+}
