@@ -22,14 +22,14 @@ window.onload=()=>{
 
     btn1.onclick=(event)=>{
     event.preventDefault();
-    a=sideA.value;
-    b=sideB.value;
-    c=sideC.value;
+    a=parseFloat(sideA.value);
+    b=parseFloat(sideB.value);
+    c=parseFloat(sideC.value);
     console.log(a);
     console.log(b);
     console.log(c);
         let p=0.0;
-        p=a+b+c;
+        p=(a+b+c)/2;
         console.log(p);
         let t1=p-a;
         console.log('t1= '+t1);
