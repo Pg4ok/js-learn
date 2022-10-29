@@ -4,21 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registration Form with data validation</title>
+    <title>Feedback Form with data validation</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style/style.css">
     <link rel="icon" href="img/lock_ban.ico">
 </head>
 <body>
     <header>
-        <h1>Forms for feet-back</h1>
+        <h1>Forms for feedback</h1>
+        <hr>
     </header>
     <main>
-
+        <form action="server/handler.html" method="post" id="reg-form">
+            <div class="mb-3">
+                <label for="login1" class="form-label">Login</label>
+                <input type="text" class="form-control" id="login1" aria-describedby="login">
+                <div id="login" class="form-text"></div>
+              </div>
+            <div class="mb-3">
+                <label for="Email1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="Email1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+              </div>
+              <div class="mb-3">
+                <label for="UProblem1" class="form-label">Your problem</label>
+                <input type="text" class="form-control" id="UProblem1">
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
     </main>
     <footer>
+        <hr>
         <h6>
-            Copyright: &copy; Pg4ok;
+            Copyright: &copy; Pg4ok-2022
         </h6>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
