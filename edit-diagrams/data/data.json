@@ -1,0 +1,29 @@
+{
+    "title":"Results diferent elections",
+    "results":[
+    {
+        "name":"Ivan Petrenko",
+        "result":128
+    },
+    {
+        "name":"Petr Kolix",
+        "result":158
+    },
+    {
+        "name":"Sanya Benko",
+        "result":186
+    },
+    {
+        "name":"Lolita Lu",
+        "result":199
+    },
+    {
+        "name":"Sidor Pinol",
+        "result":220
+    },
+    {
+        "name":"Vasya Dydenko",
+        "result":200
+    }
+]
+}

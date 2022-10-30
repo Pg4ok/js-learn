@@ -17,46 +17,47 @@
 
         <hr>
         <div class="row">
-            <section id="data-view">
-                <h5>Show Data</h5>
-                <hr>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Huge</th>
-                            <th>Meaning</th>
-                        </tr>
-                    </thead>
-                    <tbody>
+            <div class="col-md-4">
+                <section id="data-view">
+                    <h5>Show Data</h5>
+                    <hr>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Huge</th>
+                                <th>Meaning</th>
+                            </tr>
+                        </thead>
+                        <tbody>
 
-                    </tbody>
-                </table>
-            </section>
-            <section id="data-control1">
-                <h5>Управ Даными</h5>
-                <hr>
-                <button id="load-btn">Load Button</button>
-                <button id="reset-btn">Clear Data</button>
-                <button id="build1">Row-Diagrams</button>
-                <button id="build2">Column-diagram</button>
-            </section>
-        </div>
-        <div class="col-md-8">
-            <section id="diagram-view">
-            <h5>Show Diagrams</h5>
-            <hr>
-            <div id="view-box">
-                <canvas id="canvas" width="700" height="500">
-                    Your brouther can`t working with Canva`s tecnologi <br>
-                    For using this page update your brouther!
-                </canvas>
-                <div style="display:none;">
-                    <img id="logo" src="img/free-diagram-icon-694-thumb.png" alt="">
-                </div>
+                        </tbody>
+                    </table>
+                </section>
+                <section id="data-control1" class="data-control">
+                    <h5>Управ Даными</h5>
+                    <hr>
+                    <button id="load-btn">Load Button</button>
+                    <button id="reset-btn">Clear Data</button>
+                    <button id="build1">Row-Diagrams</button>
+                    <button id="build2">Column-diagram</button>
+                </section>
             </div>
-            </section>
+            <div class="col-md-8">
+                <section id="diagram-view">
+                <h5>Show Diagrams</h5>
+                <hr>
+                <div id="view-box">
+                    <canvas id="canvas" width="700" height="500">
+                        Your brouther can`t working with Canva`s tecnologi <br>
+                        For using this page update your brouther!
+                    </canvas>
+                    <div style="display:none;">
+                        <img id="logo" src="img/free-diagram-icon-694-thumb.png" alt="">
+                    </div>
+                </div>
+                </section>
+            </div>
         </div>
-
     </main>
     <footer>
         <h6>
@@ -64,6 +65,7 @@
         </h6>
     </footer>
     <script src="https://code.jquery.com/jquery-latest.js"></script>
-    <script src="js/main.js"></script>
+    <script type="module" src="js/main.js"></script>
+    <script type="module" src="js/libs.js"></script>
 </body>
 </html>
