@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagrams Editor</title>
+    <link rel="icon" href="img/logo.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <h2>Diagram`s Editor</h2>
+    </header>
+    <main>
+
+        <hr>
+        <div class="row">
+            <section id="data-view">
+                <h5>Show Data</h5>
+                <hr>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Huge</th>
+                            <th>Meaning</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </section>
+            <section id="data-control1">
+                <h5>Управ Даными</h5>
+                <hr>
+                <button id="load-btn">Load Button</button>
+                <button id="reset-btn">Clear Data</button>
+                <button id="build1">Row-Diagrams</button>
+                <button id="build2">Column-diagram</button>
+            </section>
+        </div>
+        <div class="col-md-8">
+            <section id="diagram-view">
+            <h5>Show Diagrams</h5>
+            <hr>
+            <div id="view-box">
+                <canvas id="canvas" width="700" height="500">
+                    Your brouther can`t working with Canva`s tecnologi <br>
+                    For using this page update your brouther!
+                </canvas>
+                <div style="display:none;">
+                    <img id="logo" src="img/free-diagram-icon-694-thumb.png" alt="">
+                </div>
+            </div>
+            </section>
+        </div>
+
+    </main>
+    <footer>
+        <h6>
+            Copyright: &copy; Pg4ok&trade; - 2022 
+        </h6>
+    </footer>
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
