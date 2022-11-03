@@ -11,4 +11,8 @@ $(document).ready(()=>{
         console.log('load-btn->click')
         controller.loadData();
     });
+    $('#reset-btn').click(()=>{
+        console.log('reset-btn->click')
+        controller.resetData();
+    });
 })

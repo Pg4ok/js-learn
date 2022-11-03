@@ -34,4 +34,9 @@ export class Controller{
             console.log(this.results);
         })
     }
+    resetData(){
+        $('tbody').html('');
+        this.names.length=0;
+        this.results.length=0;
+    }
 }
